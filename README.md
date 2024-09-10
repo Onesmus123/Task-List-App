@@ -58,7 +58,7 @@ JWT_SECRET=<your-jwt-secret>
 node index.js
 
 ```
-3. Frontend Setup
+3. ### Frontend Setup
 
   Navigate to the frontend directory:
 
@@ -75,4 +75,40 @@ npm install
 
 ```bash
 npm start
+```
 
+## Usage
+
+1. ### User Authentication
+
+  Register and log in to access your personalized task list.
+
+2. ### Task Management
+
+  Create new tasks with title, description, and deadline.
+  
+  Update or delete existing tasks.
+  
+  Filter tasks by status or search by title/description.
+  
+  Sort tasks by deadline or priority.
+
+
+## API Endpoints
+
+  **POST /api/users/register**: Register a new user
+  
+  **POST /api/users/login**: Log in a user
+  
+  **GET /api/tasks**: Retrieve tasks for the logged-in user
+  
+  **POST /api/tasks**: Create a new task
+  
+  **PUT /api/tasks/**: Update an existing task
+  
+  **DELETE /api/tasks/**: Delete a task
+
+
+## Contributing
+
+  Feel free to open issues or submit pull requests for improvements and bug fixes.
