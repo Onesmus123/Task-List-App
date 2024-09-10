@@ -5,15 +5,22 @@
 
 ## Features
   User Registration and Login
+  
   Task Creation, Update, and Deletion
+  
   Personalized Task Lists
+  
   Task Filtering and Sorting
+  
   Secure Token-based Authentication
   
 ## Technologies Used
   **Frontend**: React.js
+
   **Backend**: Node.js, Express.js
+
   **Database**: MongoDB
+
   **Authentication**: JSON Web Tokens (JWT)
 
 ## Installation
@@ -40,6 +47,7 @@ npm install
   Create a `.env` file with the following variables:
 
 ```bash
+PORT=5000
 MONGO_URI=<your-mongodb-uri>
 JWT_SECRET=<your-jwt-secret>
 
@@ -67,3 +75,4 @@ npm install
 
 ```bash
 npm start
+
